@@ -10,3 +10,8 @@
 sudo apt-get install fonts-unfonts-core -y
 sudo apt-get install ibus ibus-hangul -y
 ```
+* GPIO.setmode
+```
+GPIO.BCM : GPIO 번호
+GPIO.BOARD : 핀 번호
+```
