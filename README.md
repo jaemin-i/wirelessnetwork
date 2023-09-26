@@ -49,3 +49,9 @@ sudo service grafana-server start
 ```
 sudo pip3 install influxdb
 ```
+## 카메라 사용
+```
+sudo raspi-config //Legacy camera 사용 설정
+raspistill -o 파일명.jpg (Legacy camera Enable)
+libcamera-still -o 파일명.jpg (Legacy camera Disable)
+```
