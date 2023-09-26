@@ -59,3 +59,9 @@ sudo raspi-config
 raspistill -o 파일명.jpg (Legacy camera Enable)
 libcamera-still -o 파일명.jpg (Legacy camera Disable)
 ```
+## 텔레그램 봇 사용
+* telegram api install
+```
+pip3 install python-telegram-bot --upgrade
+git clone https://github.com/python-telegram-bot/python-telegram-bot --recursive
+```
